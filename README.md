@@ -21,7 +21,7 @@ If the code or the paper has been useful in your research, please add a citation
 
 ## Summary
 ![CD-CI Workflow](overview.jpg)
-Figure: Given an input $x$, the predictive distribution ideally coincides with that of a large-scale cloud-based model $p^*(\cdot|x)$. In the setting studied in this work, a small-scale edge-based model produces a probabilistic distribution $p(\cdot|x)$ that deviates from the reference distribution $p^*(\cdot|x)$, and is thus uncalibrated. The proposed conformalized credal inference-based scheme post-processes the small-scale edge model output $p(\cdot|x)$ via a simple thresholding mechanism to produce a subset $\Gamma(x)$ in the simplex of predictive distributions, with the guarantee of containing the reference distribution $p^*(\cdot|x)$ with probability $1-\epsilon$. A final calibrated predictive distribution can be obtained via ensembling or via other combining mechanisms.
+Figure: Given an input $x$, the predictive distribution ideally coincides with that of a large-scale cloud-based model $p^*(\cdot \mid x)$. In the setting studied in this work, a small-scale edge-based model produces a probabilistic distribution $p(\cdot \mid x)$ that deviates from the reference distribution $p^*(\cdot \mid x)$, and is thus uncalibrated. The proposed conformalized credal inference-based scheme post-processes the small-scale edge model output $p(\cdot|x)$ via a simple thresholding mechanism to produce a subset $\Gamma(x)$ in the simplex of predictive distributions, with the guarantee of containing the reference distribution $p^*(\cdot|x)$ with probability $1-\epsilon$. A final calibrated predictive distribution can be obtained via ensembling or via other combining mechanisms.
 
 
 ## Dependencies
